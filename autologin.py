@@ -75,9 +75,6 @@ def drive():
 	driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button').click()
 	time.sleep(3)
 
-def help():
-	print()
-
 
 while connect():
 	try:
