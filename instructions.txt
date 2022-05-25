@@ -1,0 +1,11 @@
+Install requirements:
+
+pip3 install -r requirements.txt
+
+Add execute permissions:
+
+sudo chmod +x install.sh
+
+Run install.sh as root:
+
+sudo ./install.sh
