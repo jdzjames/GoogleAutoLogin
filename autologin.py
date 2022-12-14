@@ -46,7 +46,7 @@ def classroom():
 
 		element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "password")))
 		time.sleep(2)
-		driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input').send_keys(passwd)
+		driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/c-wiz/div/div[2]/div/div[1]/div/form/span/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input').send_keys(passwd)
 		driver.find_element(By.ID, "passwordNext").click()
 		time.sleep(3)
 	except (ElementClickInterceptedException, TimeoutException, NoSuchWindowException, WebDriverException) as e:
@@ -65,7 +65,7 @@ def gmail():
 
 		element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "password")))
 		time.sleep(2)
-		driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input').send_keys(passwd)
+		driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/c-wiz/div/div[2]/div/div[1]/div/form/span/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input').send_keys(passwd)
 		driver.find_element(By.ID, "passwordNext").click()
 		time.sleep(3)
 	except (ElementClickInterceptedException, TimeoutException, NoSuchWindowException, WebDriverException) as e:
@@ -84,7 +84,7 @@ def drive():
 
 		element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "password")))
 		time.sleep(2)
-		driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input').send_keys(passwd)
+		driver.find_element(By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/c-wiz/div/div[2]/div/div[1]/div/form/span/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input').send_keys(passwd)
 		driver.find_element(By.ID, "passwordNext").click()
 		time.sleep(3)
 	except (ElementClickInterceptedException, TimeoutException, NoSuchWindowException, WebDriverException) as e:
